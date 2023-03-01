@@ -1,10 +1,18 @@
 import React from 'react';
-import './App.css';
+import {Header} from "./components/layout/Header";
+import {Map} from "./components/Map/Map";
+import './App.css'
 
 export const App = () => {
 
   return (
-       <p>test...</p>
+       <>
+           <div className="wrapper">
+               <Header/>
+               <Map></Map>
+           </div>
+
+         </>
   );
 }
 

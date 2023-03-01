@@ -1,0 +1,18 @@
+header {
+    color: aliceblue;
+    background: coral;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.search {
+    display: flex;
+}
+.search input {
+    width: 10rem;
+    margin-right: .5rem;
+}
